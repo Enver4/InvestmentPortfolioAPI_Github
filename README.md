@@ -3,7 +3,7 @@
 This is a backend Web API project built using .NET 8, Entity Framework Core, MS SQL Server, and MongoDB.  
 It allows users to manage and evaluate their currency-based investment portfolios, perform file uploads, and fetch real exchange rates from the internet (almost).
 
-# Architecture & Approach
+## Architecture & Approach
 
 - .NET 8 Web API with RESTful endpoints using Controllers
 - Entity Framework Core 8 with MS SQL Server for relational data
@@ -13,7 +13,7 @@ It allows users to manage and evaluate their currency-based investment portfolio
 - Swagger for API testing and documentation
 - Real exchange rates fetched via a public API and stored daily (Trying to fix this)
 
-# Authentication & Roles
+## Authentication & Roles
 
 - JWT tokens are issued after login (no signup)
 - Admin Users can:
@@ -25,7 +25,7 @@ It allows users to manage and evaluate their currency-based investment portfolio
   - Perform currency conversions
 - Swagger allows token-based authorization
 
-# Features Implemented
+## Features Implemented
 
 - User login (JWT-based)
 - Asset tracking (Cash, Crypto, Stocks, Gold)
@@ -37,7 +37,7 @@ It allows users to manage and evaluate their currency-based investment portfolio
 - Exchange rate fetch from (https://exchangerate.host) (There are still a bug. It calls but can't write to db)
 - Role-based permissions and admin operations
 
-# External API Usage
+## External API Usage
 
 Used (https://exchangerate.host/latest) to fetch real exchange rates. (Trying to fix this)
 
