@@ -1,0 +1,18 @@
+# Ignore sensitive config
+appsettings.Development.json
+
+# Ignore database migration files
+Migrations/
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore IDE and user-specific files
+.vscode/
+*.user
+*.suo
+
+# Optional: ignore project/solution files (only if you're not sharing them intentionally)
+*.sln
+*.csproj
